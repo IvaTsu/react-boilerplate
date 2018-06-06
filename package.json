@@ -7,6 +7,13 @@
   "author": "IvaTsu <ivan.tsud@gmail.com>",
   "license": "MIT",
   "private": false,
+  "babel": {
+    "presets": [
+      "env",
+      "react",
+      "stage-2"
+    ]
+  },
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
